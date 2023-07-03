@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <article className="grid px-5 place-items-center min-h-screen">
+      <article className="grid px-5 xs:px-1 place-items-center min-h-screen">
         <div className="card max-w-[445px] bg-white shadow-xl">
           <figure>
             <svg className="w-full" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 450 220">
@@ -52,7 +52,7 @@ export default function Home() {
               </g>
             </svg>
           </figure>
-          <div className="card-body p-6 md:p-12">
+          <div className="card-body p-6 xs:p-3 md:p-12">
             <h2 className="card-title my-2 self-center font-extrabold text-xl md:text-3xl text-c3">Order Summary</h2>
             <p className="mb-6 px-3 md:px-6 text-sm md:text-base text-center leading-6 bg-red-500s">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
             <div className="flex mb-6 p-3 items-center rounded-xl bg-c1 ">
