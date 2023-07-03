@@ -52,9 +52,9 @@ export default function Home() {
               </g>
             </svg>
           </figure>
-          <div className="card-body p-6">
-            <h2 className="card-title my-2 self-center font-extrabold text-xl text-c3">Order Summary</h2>
-            <p className="mb-6 px-3 text-sm text-center leading-6 bg-red-500s">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+          <div className="card-body p-6 md:p-12">
+            <h2 className="card-title my-2 self-center font-extrabold text-xl md:text-3xl text-c3">Order Summary</h2>
+            <p className="mb-6 px-3 md:px-6 text-sm md:text-base text-center leading-6 bg-red-500s">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
             <div className="flex mb-6 p-3 items-center rounded-xl bg-c1 ">
               <svg className="me-4" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
                 <g fill="none" fillRule="evenodd">
@@ -63,10 +63,10 @@ export default function Home() {
                 </g>
               </svg>
               <div className=" ">
-                <p className="text-sm text-c3 font-extrabold">Annual Plan</p>
-                <span className="text-sm">$59.99/year</span>
+                <p className="text-sm md:text-base text-c3 font-extrabold">Annual Plan</p>
+                <span className="text-sm md:text-base">$59.99/year</span>
               </div>
-              <button className="btn btn-xs btn-link ms-auto active:brightness-200">Change</button>
+              <button className="btn btn-xs md:btn-sm btn-link ms-auto active:brightness-200">Change</button>
             </div>
             <button className="btn btn-primary">Proceed to Payment</button>
             <button className="btn btn-link no-underline text-c2 hover:no-underline active:text-black">Cancel Order</button>
